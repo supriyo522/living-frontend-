@@ -1,0 +1,33 @@
+/* UploadForm.css */
+.upload-form-container {
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 30px;
+  }
+  
+  .upload-form-container h3 {
+    font-size: 1.5rem;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .upload-form-container input[type="file"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s ease;
+  }
+  
+  .upload-form-container input[type="file"]:hover {
+    border-color: #6a11cb;
+    cursor: pointer;
+  }
+  
